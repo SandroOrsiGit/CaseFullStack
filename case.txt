@@ -32,4 +32,26 @@ Case: ijssalon
 	- social media
 	- copyright
 - animated background (gif)
-- slideshow (smaak van de maan, kerstronk)
+- slideshow (smaak van de maand, kerstronk)
+
+Kleuren:
+palet 1
+- donkergrijs #404040
+- lichtblauw #C4EEF2
+- fel roze #F27289
+- beige #EADDCC
+- licht grijs #F2F2F2
+
+palet 2
+- donker roze #D94A64
+- donker blauw #3F83BF
+- lichter blauw #5E92BF
+- beige #F2E9D8
+- bruin #BF7B3F
+
+palet 3
+- roze #F285AD
+- geel #F2D785
+- lichtbruin #BF895A
+- donkerbruin #8C4D3F
+- lichtgrijs #F2F2F2
