@@ -1,0 +1,35 @@
+Case: ijssalon
+
+- thema feestdagen
+- thema kinderfeesten (karretje om te huren)
+- smaak van de maand
+- Naam site
+	- congelato
+- pagina's
+	- index + over ons
+		==> achtergrondafbeelding + slogan(congelato: met ijs) + naam van de zaak
+		==> over ons tekstje (foto + tekst)
+		==> (cadeaubon: enkel online verkrijgbaar)
+	- flavours
+		==> kleurtjes achtergrond + tekst smaak OF foto's vanboven en opsomming
+		==> smaak van het seizoen (gingerbread cookie dough)
+		==> coupes + frozen yoghurt
+		==> toppings
+	- verhuur
+		==> foto truck/karretje
+		==> tekst over contact op te nemen of bestellen
+		==> bestelformulier
+	- contact
+		==> 2 kolommen: locatie/google maps + contactformulier
+
+- header
+	- logo
+	- menu
+	- (taalknopje)
+- footer
+	- google maps
+	- adres + openingsuren
+	- social media
+	- copyright
+- animated background (gif)
+- slideshow (smaak van de maan, kerstronk)
