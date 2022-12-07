@@ -1,3 +1,8 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
 .flex {
 	display: flex;
 }
@@ -5,6 +10,7 @@
 .header {
 	height: 10vh;
 	width: 100%;
+	background-color: #c4eef2;
 }
 
 .logo {
@@ -23,4 +29,16 @@ nav {
 nav > ul {
 	list-style-type: none;
 	justify-content: space-around;
+	height: 100%;
+	margin: 0 auto;
+	align-items: center;
+}
+
+nav > ul > li {
+	align-items: center;
+}
+
+nav > ul > li > a {
+	display: block;
+	padding: 4vh 50px;
 }
