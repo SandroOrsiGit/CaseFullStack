@@ -78,14 +78,10 @@ nav > ul > li > a:active {
 	background-image: url(../images/background3.jpg);
 	position: absolute;
 	background-size: cover;
-	
+
 	height: 100vh;
 	width: 100%;
 	background-repeat: no-repeat;
-
-
-
 }
 .wrapper-text {
-
 }
