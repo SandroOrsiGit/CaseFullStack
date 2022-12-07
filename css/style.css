@@ -1,6 +1,13 @@
+@font-face {
+	font-family: "Playfair Display";
+	src: url(../Font/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
 body {
 	margin: 0;
 	padding: 0;
+	font-family: "Playfair Display";
+	color: #404040;
 }
 
 .flex {
@@ -8,7 +15,7 @@ body {
 }
 
 .header {
-	height: 10vh;
+	height: 20vh;
 	width: 100%;
 	background-color: #c4eef2;
 }
@@ -24,6 +31,7 @@ body {
 
 nav {
 	width: 80%;
+	font-size: 36px;
 }
 
 nav > ul {
@@ -40,5 +48,21 @@ nav > ul > li {
 
 nav > ul > li > a {
 	display: block;
-	padding: 4vh 50px;
+	padding: 2vh 50px;
+	color: #404040;
+	background-color: #f27289;
+	border: solid #c4eef2 0px;
+	border-radius: 20px;
+}
+
+nav > ul > li > a:link {
+	text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+	background-color: #ec4c69;
+}
+
+nav > ul > li > a:active {
+	background-color: #ec4c69;
 }
