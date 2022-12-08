@@ -58,21 +58,79 @@
 			</div>
 		</section>
 
+		<div class="typingtitle">
+			<h1>Contactformulier</h1>
+		</div>
+
 		<form class="flex form">
 			<fieldset class="form-container1">
-				<label for="">
-					<input type="text" />
+				<label for=""
+					>Naam
+					<input type="text" class="textbox" />
+				</label>
+				<label for=""
+					>E-mail
+					<input type="text" class="textbox" />
+				</label>
+				<label for=""
+					>Telefoonnummer
+					<input type="text" class="textbox" />
+				</label>
+				<label for=""
+					>Bericht
+					<textarea class="big-textbox" name="" id="" rows="16"></textarea>
 				</label>
 			</fieldset>
-			<fieldset class="form-container2"></fieldset>
+			<fieldset class="form-container2">
+				<label for="">
+					Kies Uw Smaken <br />
+					<div id="checklist" class="dropdown-check-list">
+						<span id="anchor" class="anchor"
+							>--Keuze Smaken--
+							<i class="fa fa-chevron-down chevron" aria-hidden="true"></i>
+						</span>
+						<ul id="items" class="items">
+							<li><input type="checkbox" />Vanille</li>
+							<li><input type="checkbox" />Chocolade</li>
+							<li><input type="checkbox" />Witte Chocolade</li>
+							<li><input type="checkbox" />Aardbei</li>
+							<li><input type="checkbox" />Straciatella</li>
+							<li><input type="checkbox" />Banaan</li>
+							<li><input type="checkbox" />Tiramisu</li>
+							<li><input type="checkbox" />Koffie</li>
+							<li><input type="checkbox" />Karamel</li>
+							<li><input type="checkbox" />Pistache</li>
+							<li><input type="checkbox" />Speculoos</li>
+							<li><input type="checkbox" />Kinder Bueno</li>
+							<li><input type="checkbox" />Kokos</li>
+							<li><input type="checkbox" />Citroensorbet</li>
+							<li><input type="checkbox" />Appelsorbet</li>
+							<li><input type="checkbox" />Frambozensorbet</li>
+							<li><input type="checkbox" />Bosvruchtenyoghurt</li>
+						</ul>
+					</div>
+				</label>
+				<label for=""
+					>Datum
+					<input class="textbox" type="date" />
+				</label>
+				<label for=""
+					>Locatie
+					<textarea class="big-textbox" name="" id="" rows="5"></textarea>
+				</label>
+				<label for=""
+					>Aantal personen
+					<input type="number" class="textbox" />
+				</label>
+			</fieldset>
 		</form>
 
 		<footer class="flex footer">
 			<map class="map">
 				<iframe
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.7136024469933!2d5.326014276903507!3d51.03991014474692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c125b1b1457655%3A0x645b166be3cb7e94!2sCVO%20De%20Verdieping!5e0!3m2!1sen!2sbe!4v1670486906696!5m2!1sen!2sbe"
-					width="450"
-					height="450"
+					width="300"
+					height="300"
 					style="border: 0"
 					allowfullscreen=""
 					loading="lazy"
@@ -106,5 +164,6 @@
 		</footer>
 
 		<script src="js/showCurrentPage.js"></script>
+		<script src="js/dropdownCheckbox.js"></script>
 	</body>
 </html>
