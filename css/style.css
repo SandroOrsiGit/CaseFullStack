@@ -146,13 +146,34 @@ iframe {
 .about {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	font-size: 48px;
+	width: 1200px;
+}
+.about h2{
+	overflow: hidden;
+	border-right: .15em solid #C4EEF2;
+	white-space: nowrap;
+	margin: 30;	
+	letter-spacing: .15em;
+	animation: typing 1.5s steps(30, end), 
+	blink-caret .5s step-end infinite;
+}
+
+/*typing effect*/
+@keyframes typing{
+	from{width: 0%;}
+	to {width: 70%;}
+}
+@keyframes blink-caret{
+	from, to {border-color: transparent;}
+	50% {border-color:#C4EEF2 ;}
 }
 .column {
 	display: flex;
 	justify-content: space-around;
 	padding: 20px;
-	width: 50%;
+	width: 700px;
 	margin: 2rem auto 0 auto;
 	background-color: #f285ad;
 }
@@ -167,6 +188,37 @@ iframe {
 .text p {
 	margin-right: 15px;
 	text-align: center;
+}
+
+.nieuw{
+
+
+}
+.container{
+	position: relative;
+	width: 100%;
+	max-width: 400px;
+}
+.container img{
+	width: 100%;
+	height: auto;
+}
+.button-truck{
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+	background-color:#f27289;
+	color: ;
+	padding: 12px 24px;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+	text-align: right;
+}
+.button-truck:hover{
+	background-color: #ec4c69;
 }
 
 /*verhuur
