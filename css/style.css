@@ -340,17 +340,22 @@ a {
 	align-items: center;
 	justify-content: center;
 }
-.seizoen a {
-	height: 100px;
-	width: 100px;
+.document {
+	height: 250px;
+	width: 250px;
 	background-color: #f27289;
-	font-size: 24px;
+	font-size: 28px;
 	border-radius: 100%;
 	transition: all 0.5s ease;
 	transform: scale(1);
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.document a {
 }
 
-.seizoen a:hover {
+.document:hover {
 	cursor: pointer;
 	transform: scale(1.5);
 	filter: brightness(120%);
