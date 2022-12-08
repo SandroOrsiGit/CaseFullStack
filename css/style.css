@@ -73,6 +73,50 @@ span {
 	color: #f285ad;
 }
 
+/*Footer*/
+
+.footer {
+	justify-content: space-between;
+	align-items: center;
+	background-color: #c4eef2;
+	font-size: 30px;
+	line-height: 54px;
+}
+
+map {
+	margin: 20px;
+	border: 5px groove #f27289;
+	width: 450px;
+}
+.adres {
+	width: 300px;
+}
+.socials {
+	width: 300px;
+	margin-right: 100px;
+}
+
+iframe {
+	display: block;
+}
+
+.socials > ul {
+	list-style-type: none;
+}
+
+.socials > ul > a:link {
+	text-decoration: none;
+	color: #f27289;
+}
+
+.socials > ul > a:visited {
+	color: #f27289;
+}
+
+.socials > ul > a:hover {
+	color: #db3150;
+}
+
 /*Index*/
 
 .index {
