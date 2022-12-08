@@ -194,7 +194,7 @@ iframe {
 	text-align: center;
 }
 
-.nieuw{
+.nieuw h3{
 	text-transform: uppercase;
 	background-image: linear-gradient(-225deg,    
 	#C4EEF2 0%,
@@ -206,7 +206,7 @@ iframe {
 	background-clip: border-box;
 	background-size: 200% auto;
 	color: #fff;
-	background-clip: text;
+	background-clip: ;
 	text-emphasis-color: transparent;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -214,6 +214,8 @@ iframe {
 	display: inline-block;
 	font-size: 120px;
 	margin-left: 30%;
+	margin-block-start: 20px;
+	margin-block-end: 20px;
 }
 @keyframes textclip {
 	to {
@@ -245,12 +247,22 @@ iframe {
 a{
 	color: white;
 	text-decoration: none;
-
 }
 .button-truck:hover{
 	cursor: pointer;
 	transform: scale(1.50);
 	filter: brightness(120%);
 }
+
+.cadeaubon{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	width: 700px;
+	margin: 2rem auto 2rem auto;
+	background-color:#f83737 ;
+	border-radius: 25px;
+}
+
 
 /*verhuur
