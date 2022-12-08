@@ -8,12 +8,14 @@ body {
 	padding: 0;
 	font-family: "Playfair Display";
 	color: #404040;
-	background-color: #F2EFE9;
+	background-color: #f2efe9;
 }
 
 .flex {
 	display: flex;
 }
+
+/*Header*/
 
 .header {
 	height: 20vh;
@@ -68,10 +70,12 @@ nav > ul > li > a:hover {
 nav > ul > li > a:active {
 	background-color: #ec4c69;
 }
-span{
-	color: #F285AD;
+span {
+	color: #f285ad;
 }
+
 /*Index*/
+
 .index {
 	width: 100%;
 	margin: 0;
@@ -83,45 +87,41 @@ span{
 	height: 100vh;
 	width: 100%;
 	background-repeat: no-repeat;
-
 }
 .wrapper-text {
 	position: absolute;
-	top:50%;
-	left:50%;
+	top: 50%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 }
-.wrapper-text h1{
+.wrapper-text h1 {
 	font-size: 80px;
 }
-.wrapper-text p{
+.wrapper-text p {
 	font-size: 50px;
 }
-.about{
+.about {
 	display: flex;
 	justify-content: center;
 	font-size: 48px;
 }
-.column{
+.column {
 	display: flex;
 	justify-content: space-around;
 	padding: 20px;
 	width: 50%;
 	margin: 2rem auto 0 auto;
-	background-color: #F285AD;
+	background-color: #f285ad;
 }
-.column img{
+.column img {
 	height: 400px;
-
 }
-.text h3{
+.text h3 {
 	margin: 0;
 	font-size: 32px;
 	text-align: center;
 }
-.text p{
+.text p {
 	margin-right: 15px;
 	text-align: center;
 }
-
-
