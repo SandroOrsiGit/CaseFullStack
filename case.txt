@@ -6,52 +6,54 @@ Case: ijssalon
 - Naam site
 	- congelato
 - pagina's
-	- index + over ons
+	- index + over ons (jasmina)
 		==> achtergrondafbeelding + slogan(congelato: met ijs) + naam van de zaak
 		==> over ons tekstje (foto + tekst)
 		==> (cadeaubon: enkel online verkrijgbaar)
-	- flavours
+	- flavours(jasmina)
 		==> kleurtjes achtergrond + tekst smaak OF foto's vanboven en opsomming
 		==> smaak van het seizoen (gingerbread cookie dough)
 		==> coupes + frozen yoghurt
 		==> toppings
-	- verhuur
+	- verhuur(sandro)
 		==> foto truck/karretje
 		==> tekst over contact op te nemen of bestellen
 		==> bestelformulier
-	- contact
+	- contact(jasmina)
 		==> 2 kolommen: locatie/google maps + contactformulier
 
-- header
+- header (sandro)
 	- logo
 	- menu
 	- (taalknopje)
-- footer
+- footer(sandro)
 	- google maps
 	- adres + openingsuren
 	- social media
 	- copyright
 - animated background (gif)
-- slideshow (smaak van de maand, kerstronk)
+- slideshow (smaak van de maan, kerstronk)
 
 Kleuren:
-palet 1
-- donkergrijs #404040
+palet1
 - lichtblauw #C4EEF2
 - fel roze #F27289
-- beige #EADDCC
-- licht grijs #F2F2F2
+- roze #F285AD
+- darkgrey #404040
+- beige #F2EFE9
+- pistache #C1D96A
 
-palet 2
-- donker roze #D94A64
-- donker blauw #3F83BF
-- lichter blauw #5E92BF
-- beige #F2E9D8
-- bruin #BF7B3F
+
+palet2
+- licht grijs #F2F2F2
+- fel roze #E25F9D
+- geel #F2D785
+- licht bruin #BF895A
+- donker bruin #8C4D3F
 
 palet 3
-- roze #F285AD
-- geel #F2D785
-- lichtbruin #BF895A
-- donkerbruin #8C4D3F
-- lichtgrijs #F2F2F2
+- roze #F27289
+- licht blauw #C4EEF2
+- blauw #6FBFBF
+- geel #F2D95C
+- bruin #BF793B
