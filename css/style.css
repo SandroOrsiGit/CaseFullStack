@@ -150,24 +150,32 @@ iframe {
 	font-size: 48px;
 	width: 1200px;
 }
-.about h2{
+.about h2 {
 	overflow: hidden;
-	border-right: .15em solid #C4EEF2;
+	border-right: 0.15em solid #c4eef2;
 	white-space: nowrap;
-	margin: 30;	
-	letter-spacing: .15em;
-	animation: typing 1.5s steps(30, end), 
-	blink-caret .5s step-end infinite;
+	margin: 30;
+	letter-spacing: 0.15em;
+	animation: typing 1.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
 /*typing effect*/
-@keyframes typing{
-	from{width: 0%;}
-	to {width: 70%;}
+@keyframes typing {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 70%;
+	}
 }
-@keyframes blink-caret{
-	from, to {border-color: transparent;}
-	50% {border-color:#C4EEF2 ;}
+@keyframes blink-caret {
+	from,
+	to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: #c4eef2;
+	}
 }
 .column {
 	display: flex;
@@ -190,26 +198,24 @@ iframe {
 	text-align: center;
 }
 
-.nieuw{
-
-
+.nieuw {
 }
-.container{
+.container {
 	position: relative;
 	width: 100%;
 	max-width: 400px;
 }
-.container img{
+.container img {
 	width: 100%;
 	height: auto;
 }
-.button-truck{
+.button-truck {
 	position: absolute;
 	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-  	-ms-transform: translate(-50%, -50%);
-	background-color:#f27289;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #f27289;
 	color: ;
 	padding: 12px 24px;
 	border: none;
@@ -217,8 +223,43 @@ iframe {
 	cursor: pointer;
 	text-align: right;
 }
-.button-truck:hover{
+.button-truck:hover {
 	background-color: #ec4c69;
 }
 
-/*verhuur
+/*verhuur*/
+
+.verhuur-image {
+	justify-content: center;
+}
+.verhuur-image img {
+	width: 100%;
+}
+.verhuur-tekst {
+	align-items: center;
+	flex-direction: column;
+}
+.verhuur-tekst-container {
+	width: 800px;
+	background-color: #c1d96a;
+	margin: 50px;
+	padding: 50px;
+	border: 3px solid #c1d96a;
+	border-radius: 25px;
+}
+.verhuur-tekst p {
+	width: 800px;
+	text-align: center;
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.form {
+	justify-content: space-around;
+}
+.form-container1 .form-container2 {
+	width: 500px;
+	margin: 25px;
+	padding: 25px;
+	background-color: #c4eef2;
+}

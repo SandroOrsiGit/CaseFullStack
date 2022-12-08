@@ -40,7 +40,7 @@ palet 1
 - lichtblauw #C4EEF2
 - fel roze #F27289
 - beige #EADDCC
-- licht grijs #F2F2F2
+- pistache #C1D96A
 
 palet 2
 - donker roze #D94A64
