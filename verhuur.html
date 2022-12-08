@@ -122,6 +122,50 @@
 					>Aantal personen
 					<input type="number" class="textbox" />
 				</label>
+				<div class="formtext">Wat wil u huren?</div>
+				<div class="radio">
+					<label for="" class="radioleft">
+						<input
+							name="voertuig"
+							type="radio"
+							value="truck"
+							class="radiobutton"
+							id="truck"
+							onclick="checkInput()"
+						/>Truck
+					</label>
+					<label for="" class="radioright">
+						<input
+							name="voertuig"
+							type="radio"
+							value="cart"
+							class="radiobutton"
+							id="cart"
+							onclick="checkInput()"
+						/>Cart
+					</label>
+				</div>
+				<div id="optioneleInput" class="hidden">
+					<div class="formtext">Wilt u personeel bij de cart huren?</div>
+					<div class="radio">
+						<label for="" class="radioleft">
+							<input
+								name="personeel"
+								type="radio"
+								value="ja"
+								class="radiobutton"
+							/>Ja
+						</label>
+						<label for="" class="radioright">
+							<input
+								name="personeel"
+								type="radio"
+								value="nee"
+								class="radiobutton"
+							/>Nee
+						</label>
+					</div>
+				</div>
 			</fieldset>
 		</form>
 
@@ -165,5 +209,6 @@
 
 		<script src="js/showCurrentPage.js"></script>
 		<script src="js/dropdownCheckbox.js"></script>
+		<script src="js/showOptionalInput.js"></script>
 	</body>
 </html>

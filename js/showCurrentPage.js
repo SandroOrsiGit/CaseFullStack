@@ -1,3 +1,4 @@
+"use strict";
 let currentUrl = window.location.href
 
 if(currentUrl.indexOf('index.html')!=-1){

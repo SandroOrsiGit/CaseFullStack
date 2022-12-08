@@ -352,8 +352,6 @@ a {
 	justify-content: center;
 	text-align: center;
 }
-.document a {
-}
 
 .document:hover {
 	cursor: pointer;
@@ -451,4 +449,36 @@ label {
 
 .dropdown-check-list.visible .items {
 	display: block;
+}
+
+.radio {
+	display: flex;
+	justify-content: flex-start;
+	font-size: 16px;
+}
+
+.radioleft {
+	margin-top: 6px;
+	margin-left: 100px;
+}
+.radioright {
+	margin-top: 6px;
+	margin-left: 60px;
+}
+
+.radiobutton {
+	width: 15px;
+	height: 15px;
+}
+.formtext {
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.hidden {
+	visibility: hidden;
+}
+.visible {
+	visibility: visible;
 }

@@ -1,3 +1,4 @@
+"use strict";
 let checkList = document.getElementById('checklist');
 document.getElementById('anchor').onclick = function() {
   if (checkList.classList.contains('visible'))
