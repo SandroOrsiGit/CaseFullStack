@@ -69,9 +69,7 @@ nav > ul > li > a:hover {
 nav > ul > li > a:active {
 	background-color: #ec4c69;
 }
-span {
-	color: #f285ad;
-}
+
 
 /*Footer*/
 
@@ -270,6 +268,88 @@ a {
 	background-color:#f83737 ;
 	border-radius: 25px;
 }
+
+/* Flavours */
+.smaken {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 48px;
+	width: 1200px;
+}
+.smaken h1 {
+	overflow: hidden;
+	border-right: 0.15em solid #c4eef2;
+	white-space: nowrap;
+	margin: 30;
+	letter-spacing: 0.15em;
+	animation: typing 1.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+/*typing effect*/
+@keyframes typing {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 70%;
+	}
+}
+@keyframes blink-caret {
+	from,
+	to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: #c4eef2;
+	}
+}
+.seizoen{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.seizoen .smaak{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	background-color:#C1D96A;
+	color:#404040;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 25px;
+}
+.seizoen img{
+	border-radius: 25px;
+	width: 600px;
+}
+.seizoen h2{
+	font-size: 24px;
+}
+.seizoen p{
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.seizoen a{
+	height: 100px;
+	width: 100px;
+	background-color: #f27289;
+	font-size: 24px;
+	border-radius: 100%;
+	transition: all 0.5s ease;
+	transform: scale(1);
+}
+
+.seizoen a:hover {
+	cursor: pointer;
+	transform: scale(1.5);
+	filter: brightness(120%);
+}
+
 
 /*verhuur*/
 
