@@ -281,7 +281,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	font-size: 48px;
-	width: 1200px;
+	
 }
 .smaken h1 {
 	overflow: hidden;
@@ -361,7 +361,9 @@ a {
 
 .flavours{
 	display: flex;
-	background-color:#f2efe9;
+	justify-content: space-evenly;
+	background-color:#f2efe9;	
+	
 	
 
 }
@@ -372,7 +374,13 @@ a {
 	font-size: 30px;
 	border-color: #c1d96a;
 	border-style: inset;
+	width: 300px;
+}
+.flavour ul{
+	list-style-type: none;
+	padding: 0;
 
+	
 }
 
 /*verhuur*/
