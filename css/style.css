@@ -314,7 +314,7 @@ a {
 	position: relative;
 	display: flex;
 	justify-content: space-between;
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 .seizoen .smaak {
@@ -357,6 +357,22 @@ a {
 	cursor: pointer;
 	transform: scale(1.5);
 	filter: brightness(120%);
+}
+
+.flavours{
+	display: flex;
+	background-color:#f2efe9;
+	
+
+}
+.flavour{
+	background-color:#f2efe9;
+	margin: 70px;
+	padding: 20px;
+	font-size: 30px;
+	border-color: #c1d96a;
+	border-style: inset;
+
 }
 
 /*verhuur*/
