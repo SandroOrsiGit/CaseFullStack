@@ -42,6 +42,7 @@ palet1
 - darkgrey #404040
 - beige #F2EFE9
 - pistache #C1D96A
+- donkerblauw #2D7989
 
 
 palet2

@@ -62,111 +62,116 @@
 			<h1>Contactformulier</h1>
 		</div>
 
-		<form class="flex form">
-			<fieldset class="form-container1">
-				<label for=""
-					>Naam
-					<input type="text" class="textbox" />
-				</label>
-				<label for=""
-					>E-mail
-					<input type="text" class="textbox" />
-				</label>
-				<label for=""
-					>Telefoonnummer
-					<input type="text" class="textbox" />
-				</label>
-				<label for=""
-					>Bericht
-					<textarea class="big-textbox" name="" id="" rows="16"></textarea>
-				</label>
-			</fieldset>
-			<fieldset class="form-container2">
-				<label for="">
-					Kies Uw Smaken <br />
-					<div id="checklist" class="dropdown-check-list">
-						<span id="anchor" class="anchor"
-							>--Keuze Smaken--
-							<i class="fa fa-chevron-down chevron" aria-hidden="true"></i>
-						</span>
-						<ul id="items" class="items">
-							<li><input type="checkbox" />Vanille</li>
-							<li><input type="checkbox" />Chocolade</li>
-							<li><input type="checkbox" />Witte Chocolade</li>
-							<li><input type="checkbox" />Aardbei</li>
-							<li><input type="checkbox" />Straciatella</li>
-							<li><input type="checkbox" />Banaan</li>
-							<li><input type="checkbox" />Tiramisu</li>
-							<li><input type="checkbox" />Koffie</li>
-							<li><input type="checkbox" />Karamel</li>
-							<li><input type="checkbox" />Pistache</li>
-							<li><input type="checkbox" />Speculoos</li>
-							<li><input type="checkbox" />Kinder Bueno</li>
-							<li><input type="checkbox" />Kokos</li>
-							<li><input type="checkbox" />Citroensorbet</li>
-							<li><input type="checkbox" />Appelsorbet</li>
-							<li><input type="checkbox" />Frambozensorbet</li>
-							<li><input type="checkbox" />Bosvruchtenyoghurt</li>
-						</ul>
-					</div>
-				</label>
-				<label for=""
-					>Datum
-					<input class="textbox" type="date" />
-				</label>
-				<label for=""
-					>Locatie
-					<textarea class="big-textbox" name="" id="" rows="5"></textarea>
-				</label>
-				<label for=""
-					>Aantal personen
-					<input type="number" class="textbox" />
-				</label>
-				<div class="formtext">Wat wil u huren?</div>
-				<div class="radio">
-					<label for="" class="radioleft">
-						<input
-							name="voertuig"
-							type="radio"
-							value="truck"
-							class="radiobutton"
-							id="truck"
-							onclick="checkInput()"
-						/>Truck
+		<form>
+			<div class="form flex">
+				<fieldset class="form-container1">
+					<label for=""
+						>Naam
+						<input type="text" class="textbox" />
 					</label>
-					<label for="" class="radioright">
-						<input
-							name="voertuig"
-							type="radio"
-							value="cart"
-							class="radiobutton"
-							id="cart"
-							onclick="checkInput()"
-						/>Cart
+					<label for=""
+						>E-mail
+						<input type="text" class="textbox" />
 					</label>
-				</div>
-				<div id="optioneleInput" class="hidden">
-					<div class="formtext">Wilt u personeel bij de cart huren?</div>
+					<label for=""
+						>Telefoonnummer
+						<input type="text" class="textbox" />
+					</label>
+					<label for=""
+						>Bericht
+						<textarea class="big-textbox" name="" id="" rows="16"></textarea>
+					</label>
+				</fieldset>
+				<fieldset class="form-container2">
+					<label for="">
+						Kies Uw Smaken <br />
+						<div id="checklist" class="dropdown-check-list">
+							<span id="anchor" class="anchor"
+								>--Keuze Smaken--
+								<i class="fa fa-chevron-down chevron" aria-hidden="true"></i>
+							</span>
+							<ul id="items" class="items">
+								<li><input type="checkbox" />Vanille</li>
+								<li><input type="checkbox" />Chocolade</li>
+								<li><input type="checkbox" />Witte Chocolade</li>
+								<li><input type="checkbox" />Aardbei</li>
+								<li><input type="checkbox" />Straciatella</li>
+								<li><input type="checkbox" />Banaan</li>
+								<li><input type="checkbox" />Tiramisu</li>
+								<li><input type="checkbox" />Koffie</li>
+								<li><input type="checkbox" />Karamel</li>
+								<li><input type="checkbox" />Pistache</li>
+								<li><input type="checkbox" />Speculoos</li>
+								<li><input type="checkbox" />Kinder Bueno</li>
+								<li><input type="checkbox" />Kokos</li>
+								<li><input type="checkbox" />Citroensorbet</li>
+								<li><input type="checkbox" />Appelsorbet</li>
+								<li><input type="checkbox" />Frambozensorbet</li>
+								<li><input type="checkbox" />Bosvruchtenyoghurt</li>
+							</ul>
+						</div>
+					</label>
+					<label for=""
+						>Datum
+						<input class="textbox" type="date" />
+					</label>
+					<label for=""
+						>Locatie
+						<textarea class="big-textbox" name="" id="" rows="5"></textarea>
+					</label>
+					<label for=""
+						>Aantal personen
+						<input type="number" class="textbox" />
+					</label>
+					<div class="formtext">Wat wil u huren?</div>
 					<div class="radio">
 						<label for="" class="radioleft">
 							<input
-								name="personeel"
+								name="voertuig"
 								type="radio"
-								value="ja"
+								value="truck"
 								class="radiobutton"
-							/>Ja
+								id="truck"
+								onclick="checkInput()"
+							/>Truck
 						</label>
 						<label for="" class="radioright">
 							<input
-								name="personeel"
+								name="voertuig"
 								type="radio"
-								value="nee"
+								value="cart"
 								class="radiobutton"
-							/>Nee
+								id="cart"
+								onclick="checkInput()"
+							/>Cart
 						</label>
 					</div>
-				</div>
-			</fieldset>
+					<div id="optioneleInput" class="hidden">
+						<div class="formtext">Wilt u personeel bij de cart huren?</div>
+						<div class="radio">
+							<label for="" class="radioleft">
+								<input
+									name="personeel"
+									type="radio"
+									value="ja"
+									class="radiobutton"
+								/>Ja
+							</label>
+							<label for="" class="radioright">
+								<input
+									name="personeel"
+									type="radio"
+									value="nee"
+									class="radiobutton"
+								/>Nee
+							</label>
+						</div>
+					</div>
+				</fieldset>
+			</div>
+			<div class="submit flex">
+				<input type="submit" value="Versturen" />
+			</div>
 		</form>
 
 		<footer class="flex footer">
