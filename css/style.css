@@ -80,7 +80,7 @@ nav > ul > li > a:active {
 	line-height: 54px;
 }
 
-map {
+.map {
 	margin: 20px;
 	border: 5px groove #f27289;
 	width: 300px;
@@ -206,6 +206,10 @@ iframe {
 	text-align: center;
 }
 
+.nieuw {
+	text-align: center;
+}
+
 .nieuw h3 {
 	text-transform: uppercase;
 	background-image: linear-gradient(
@@ -225,7 +229,6 @@ iframe {
 	animation: textclip 2s linear infinite;
 	display: inline-block;
 	font-size: 120px;
-	margin-left: 30%;
 	margin-block-start: 20px;
 	margin-block-end: 20px;
 }
@@ -281,7 +284,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	font-size: 48px;
-	
+	width: 1200px;
 }
 .smaken h1 {
 	overflow: hidden;
@@ -314,7 +317,7 @@ a {
 	position: relative;
 	display: flex;
 	justify-content: space-between;
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 .seizoen .smaak {
@@ -357,30 +360,6 @@ a {
 	cursor: pointer;
 	transform: scale(1.5);
 	filter: brightness(120%);
-}
-
-.flavours{
-	display: flex;
-	justify-content: space-evenly;
-	background-color:#f2efe9;	
-	
-	
-
-}
-.flavour{
-	background-color:#f2efe9;
-	margin: 70px;
-	padding: 20px;
-	font-size: 30px;
-	border-color: #c1d96a;
-	border-style: inset;
-	width: 300px;
-}
-.flavour ul{
-	list-style-type: none;
-	padding: 0;
-
-	
 }
 
 /*verhuur*/
@@ -505,4 +484,11 @@ label {
 }
 .visible {
 	visibility: visible;
+}
+
+/*contact*/
+.big-map {
+	margin: 50px;
+	border: 5px groove #c1d96a;
+	width: 600px;
 }
