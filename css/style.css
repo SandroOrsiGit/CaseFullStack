@@ -8,7 +8,6 @@ body {
 	padding: 0;
 	font-family: "Playfair Display";
 	color: #404040;
-
 }
 
 .flex {
@@ -73,24 +72,28 @@ nav > ul > li > a:active {
 /*Footer*/
 
 .footer {
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	background-color: #c4eef2;
-	font-size: 30px;
-	line-height: 54px;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 .map {
 	margin: 20px;
-	border: 5px groove #f27289;
+	border: 0px solid #2d7989;
 	width: 300px;
 }
 .adres {
 	width: 300px;
+	margin-left: 10px;
 }
 .socials {
 	width: 300px;
 	margin-right: 100px;
+}
+.social-icon {
+	margin: 0 10px;
 }
 
 iframe {
@@ -99,6 +102,7 @@ iframe {
 
 .socials > ul {
 	list-style-type: none;
+	padding-left: 0;
 }
 
 .socials > ul > a:link {
@@ -112,6 +116,29 @@ iframe {
 
 .socials > ul > a:hover {
 	color: #db3150;
+}
+.socials li {
+	font-size: 24px;
+}
+.row {
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 50px;
+}
+.row img {
+	height: 150px;
+	width: 120px;
+}
+.links {
+	margin-left: 50px;
+	margin-right: 200px;
+}
+.links a {
+	color: #2d7989;
+	font-size: 16px;
+}
+.links a:hover {
+	color: #f27289;
 }
 
 /*Index*/
@@ -276,6 +303,7 @@ a {
 	margin: 2rem auto 2rem auto;
 	background-color: #f83737;
 	border-radius: 25px;
+	color: white;
 }
 
 /* Flavours */
@@ -324,7 +352,7 @@ a {
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
-	background-color:#c4eef2;
+	background-color: #c4eef2;
 	color: #404040;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -362,13 +390,11 @@ a {
 	filter: brightness(120%);
 }
 
-.flavours{
+.flavours {
 	display: flex;
 	justify-content: center;
-
-		
 }
-.flavour{
+.flavour {
 	margin: 25px;
 	padding: 20px;
 	font-size: 20px;
@@ -377,18 +403,17 @@ a {
 	text-align: center;
 	border-radius: 25px;
 }
-.flavour ul{
+.flavour ul {
 	list-style-type: none;
-	padding: 0;	
+	padding: 0;
 	line-height: 50px;
 }
 
-.restMenu{
+.restMenu {
 	display: flex;
 	justify-content: center;
-
 }
-.coupes{
+.coupes {
 	display: flex;
 	flex-direction: column;
 	margin: 25px;
@@ -399,17 +424,14 @@ a {
 	text-align: center;
 	border-radius: 25px;
 }
-.coupes h2{
+.coupes h2 {
 	text-align: center;
-
 }
-.coupes ul{
+.coupes ul {
 	list-style-type: none;
 	padding: 0;
 	line-height: 30px;
 }
-
-
 
 /*verhuur*/
 
@@ -448,6 +470,8 @@ a {
 	padding: 25px;
 	background-color: #f2f2f2;
 	height: 600px;
+	border: double;
+	border-radius: 20px;
 }
 
 label {
@@ -476,19 +500,23 @@ label {
 	display: inline-block;
 	cursor: pointer;
 	padding: 5px 10px 5px 10px;
-	border: 1px solid #c1d96a;
+	border: 1px solid #2d7989;
+	width: 330px;
 }
 
 .chevron {
-	margin-left: 100px;
+	margin-left: 173px;
 }
 
 .dropdown-check-list ul.items {
 	padding: 2px;
 	display: none;
 	margin: 0;
-	border: 1px solid #c1d96a;
+	border: 1px solid #2d7989;
 	border-top: none;
+	position: absolute;
+	background-color: #f2f2f2;
+	width: 346px;
 }
 
 .dropdown-check-list ul.items li {
@@ -496,7 +524,7 @@ label {
 }
 
 .dropdown-check-list.visible .anchor {
-	color: #c1d96a;
+	color: #2d7989;
 }
 
 .dropdown-check-list.visible .items {
