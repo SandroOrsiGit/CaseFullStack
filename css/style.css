@@ -198,7 +198,6 @@ iframe {
 	justify-content: center;
 	align-items: center;
 	font-size: 48px;
-	width: 100%;
 }
 .typingtitle h2 {
 	overflow: hidden;
@@ -344,7 +343,6 @@ iframe {
 	justify-content: center;
 	align-items: center;
 	font-size: 48px;
-	width: 1200px;
 }
 .smaken h1 {
 	overflow: hidden;
@@ -604,6 +602,7 @@ label {
 	display: flex;
 	justify-content: flex-start;
 	font-size: 16px;
+	margin-bottom: 20px;
 }
 
 .radioleft {
@@ -687,4 +686,9 @@ label {
 }
 .submitContact input:hover {
 	background-color: #db3150;
+}
+
+/*Form Validation*/
+.error {
+	color: red;
 }
