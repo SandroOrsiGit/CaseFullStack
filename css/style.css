@@ -17,11 +17,16 @@ body {
 /*Header*/
 
 .header {
-	height: 150px;
+	height: 100px;
 	background-color: #c4eef2;
 	margin: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	position: sticky;
+	top: 0;
+	z-index: 1;
 }
-
 .logo {
 	width: 20%;
 	justify-content: center;
@@ -30,7 +35,6 @@ body {
 	max-width: 100%;
 	max-height: 100%;
 }
-
 nav {
 	width: 80%;
 	font-size: 36px;
@@ -149,14 +153,27 @@ iframe {
 }
 .wrapper {
 	background-image: url(../images/background.jpg);
-	background-size: cover;
 	position: relative;
 	height: 100vh;
 	width: 100%;
+	opacity: 0.8;
+	background-size: cover;
 	background-repeat: no-repeat;
+
+}
+.wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
 }
 .wrapper-text {
+	color:white;
 	position: absolute;
+	text-align: center;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -284,22 +301,24 @@ a {
 	text-decoration: none;
 	background-color: #f27289;
 	font-size: 24px;
-	padding: 12px 24px;
+	padding: 12px 30px;
 	border: none;
 	border-radius: 25px;
-	display: inline-block;
+	display: flex;
+	justify-content: center;
 	transition: all 0.5s ease;
-	transform: scale(1);
+	transform: scale(0.7);
 }
 .button-truck:hover {
 	cursor: pointer;
-	transform: scale(1.5);
+	transform: scale(1.2);
 	filter: brightness(120%);
 }
 .button-truck p{
 	color: white;
+	font-size: 18px;
+	text-align: center;
 }
-
 .cadeaubon {
 	display: flex;
 	justify-content: space-around;
@@ -488,7 +507,7 @@ a {
 	flex-direction: column;
 }
 .verhuur-tekst-container {
-	width: 800px;
+	width: 700px;
 	background-color: #c4eef2;
 	margin: 50px;
 	padding: 50px;
@@ -496,9 +515,9 @@ a {
 	border-radius: 25px;
 }
 .verhuur-tekst p {
-	width: 800px;
+	width: 700px;
 	text-align: center;
-	font-size: 30px;
+	font-size: 20px;
 	line-height: 40px;
 }
 
@@ -611,7 +630,7 @@ label {
 .submit input {
 	height: 75px;
 	width: 150px;
-	background: #f285ad;
+	background: #f27289;
 	border: 0;
 	border-radius: 100px;
 	cursor: pointer;
@@ -651,7 +670,7 @@ label {
 .submitContact input {
 	height: 50px;
 	width: 100px;
-	background: #f285ad;
+	background: #f27289;
 	border: 0;
 	border-radius: 100px;
 	cursor: pointer;

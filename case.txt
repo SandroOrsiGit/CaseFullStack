@@ -40,7 +40,7 @@ palet1
 - fel roze #F27289
 - roze #F285AD
 - darkgrey #404040
-- beige #F2EFE9
+- licht grijs #F2F2F2
 - pistache #C1D96A
 - donkerblauw #2D7989
 
