@@ -59,15 +59,13 @@ nav > ul {
 }
 
 nav > ul > li {
-	align-items: center;
+	align-items: center;	
 }
 
 nav > ul > li > a {
 	display: block;
 	padding: 1vh 30px;
 	color: #404040;
-	background-color: #f27289;
-	border: solid #c4eef2 0px;
 	border-radius: 20px;
 }
 
@@ -76,11 +74,13 @@ nav > ul > li > a:link {
 }
 
 nav > ul > li > a:hover {
-	background-color: #ec4c69;
+	color:#f27289;
+	text-decoration: underline #f27289;
 }
 
 nav > ul > li > a:active {
-	background-color: #ec4c69;
+	color: #f27289;
+	text-decoration: underline #f27289 !important;
 }
 
 /*Footer*/
