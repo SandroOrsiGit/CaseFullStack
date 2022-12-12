@@ -420,6 +420,10 @@ iframe {
 	justify-content: center;
 	text-align: center;
 }
+.document a {
+	color: white;
+	text-decoration: none;
+}
 
 .document:hover {
 	cursor: pointer;
