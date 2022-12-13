@@ -36,23 +36,18 @@
 
 		<section>
 			<div class="verhuur-image flex">
-				<img
-					src="images/truck&cart.jpg"
-					alt="een side-by-side van onze truck en cart die je kan huren"
-				/>
+				<img src="images/truck&cart.jpg" alt="een side-by-side van onze truck en cart die je kan huren" />
 			</div>
 			<div class="verhuur-tekst flex">
 				<div class="verhuur-tekst-container">
 					<p>
-						Recent zijn we begonnen met het verhuur van een ice cream cart en
-						een ice cream truck (vanaf 100 personen). Ideaal voor feestjes en
-						ongetwijfeld de blikvanger van ieder event. In onze cart passen 2
-						smaken en in onze truck passen tot wel 7 smaken. Het karretje kan
-						met of zonder bediening gehuurd worden.
+						Recent zijn we begonnen met het verhuur van een ice cream cart en een ice cream truck (vanaf 100
+						personen). Ideaal voor feestjes en ongetwijfeld de blikvanger van ieder event. In onze cart
+						passen 2 smaken en in onze truck passen tot wel 7 smaken. Het karretje kan met of zonder
+						bediening gehuurd worden.
 					</p>
 					<p>
-						Voor info of een offerte, vul onderstaand formulier in en wij nemen
-						zo snel mogelijk contact op.
+						Voor info of een offerte, vul onderstaand formulier in en wij nemen zo snel mogelijk contact op.
 					</p>
 				</div>
 			</div>
@@ -80,13 +75,11 @@
 					</label>
 					<label for=""
 						>Bericht
-						<textarea class="big-textbox" name="" id="" rows="16"></textarea>
+						<textarea class="big-textbox" name="" id="bericht" rows="16"></textarea>
 					</label>
 				</fieldset>
 				<fieldset class="form-container2">
-					<div class="formtext form-smaken">
-						Wat wil u huren? <span class="error" id="hurenError"></span>
-					</div>
+					<div class="formtext form-smaken">Wat wil u huren? <span class="error" id="hurenError"></span></div>
 					<div class="radio">
 						<label for="" class="radioleft">
 							<input
@@ -119,33 +112,21 @@
 							<ul id="items" class="items">
 								<li><input type="checkbox" class="keuzeSmaak" />Vanille</li>
 								<li><input type="checkbox" class="keuzeSmaak" />Chocolade</li>
-								<li>
-									<input type="checkbox" class="keuzeSmaak" />Witte Chocolade
-								</li>
+								<li><input type="checkbox" class="keuzeSmaak" />Witte Chocolade</li>
 								<li><input type="checkbox" class="keuzeSmaak" />Aardbei</li>
-								<li>
-									<input type="checkbox" class="keuzeSmaak" />Straciatella
-								</li>
+								<li><input type="checkbox" class="keuzeSmaak" />Straciatella</li>
 								<li><input type="checkbox" class="keuzeSmaak" />Banaan</li>
 								<li><input type="checkbox" class="keuzeSmaak" />Tiramisu</li>
 								<li><input type="checkbox" class="keuzeSmaak" />Koffie</li>
 								<li><input type="checkbox" class="keuzeSmaak" />Karamel</li>
 								<li><input type="checkbox" class="keuzeSmaak" />Pistache</li>
 								<li><input type="checkbox" class="keuzeSmaak" />Speculoos</li>
-								<li>
-									<input type="checkbox" class="keuzeSmaak" />Kinder Bueno
-								</li>
+								<li><input type="checkbox" class="keuzeSmaak" />Kinder Bueno</li>
 								<li><input type="checkbox" class="keuzeSmaak" />Kokos</li>
-								<li>
-									<input type="checkbox" class="keuzeSmaak" />Citroensorbet
-								</li>
+								<li><input type="checkbox" class="keuzeSmaak" />Citroensorbet</li>
 								<li><input type="checkbox" class="keuzeSmaak" />Appelsorbet</li>
-								<li>
-									<input type="checkbox" class="keuzeSmaak" />Frambozensorbet
-								</li>
-								<li>
-									<input type="checkbox" class="keuzeSmaak" />Bosvruchtenyoghurt
-								</li>
+								<li><input type="checkbox" class="keuzeSmaak" />Frambozensorbet</li>
+								<li><input type="checkbox" class="keuzeSmaak" />Bosvruchtenyoghurt</li>
 							</ul>
 						</div>
 					</label>
@@ -155,12 +136,7 @@
 					</label>
 					<label for=""
 						>Locatie <span class="error" id="locatieError"></span>
-						<textarea
-							class="big-textbox"
-							name=""
-							id="locatie"
-							rows="5"
-						></textarea>
+						<textarea class="big-textbox" name="" id="locatie" rows="5"></textarea>
 					</label>
 					<label for=""
 						>Aantal personen <span class="error" id="aantalError"></span>
@@ -173,34 +149,17 @@
 						</div>
 						<div class="radio">
 							<label for="" class="radioleft">
-								<input
-									name="personeel"
-									type="radio"
-									value="ja"
-									class="radiobutton"
-									id="ja"
-								/>Ja
+								<input name="personeel" type="radio" value="ja" class="radiobutton" id="ja" />Ja
 							</label>
 							<label for="" class="radioright">
-								<input
-									name="personeel"
-									type="radio"
-									value="nee"
-									class="radiobutton"
-									id="nee"
-								/>Nee
+								<input name="personeel" type="radio" value="nee" class="radiobutton" id="nee" />Nee
 							</label>
 						</div>
 					</div>
 				</fieldset>
 			</div>
 			<div class="submit flex">
-				<input
-					type="submit"
-					value="Versturen"
-					onclick="verstuur()"
-					id="submit"
-				/>
+				<input type="submit" value="Versturen" onclick="verstuur()" id="submit" />
 			</div>
 		</form>
 
@@ -219,10 +178,7 @@
 					<ul class="flex">
 						<a href="https://www.facebook.com/" class="social-icon">
 							<li>
-								<i
-									class="fa fa-facebook-official icon-2x"
-									aria-hidden="true"
-								></i>
+								<i class="fa fa-facebook-official icon-2x" aria-hidden="true"></i>
 							</li>
 						</a>
 						<a href="https://twitter.com/" class="social-icon">
