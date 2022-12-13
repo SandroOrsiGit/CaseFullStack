@@ -201,7 +201,6 @@ iframe {
 }
 .typingtitle h2 {
 	overflow: hidden;
-	border-right: 0.15em solid #c4eef2;
 	white-space: nowrap;
 	margin: 30;
 	letter-spacing: 0.15em;
@@ -209,7 +208,6 @@ iframe {
 }
 .typingtitle h1 {
 	overflow: hidden;
-	border-right: 0.15em solid #c4eef2;
 	white-space: nowrap;
 	margin: 30;
 	letter-spacing: 0.15em;
@@ -346,7 +344,6 @@ iframe {
 }
 .smaken h1 {
 	overflow: hidden;
-	border-right: 0.15em solid #c4eef2;
 	white-space: nowrap;
 	margin: 30;
 	letter-spacing: 0.15em;
