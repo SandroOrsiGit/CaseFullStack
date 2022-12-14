@@ -19,7 +19,7 @@ Case: ijssalon
 		==> foto truck/karretje
 		==> tekst over contact op te nemen of bestellen
 		==> bestelformulier
-	- contact(jasmina)
+	- contact(sandro)
 		==> 2 kolommen: locatie/google maps + contactformulier
 
 - header (sandro)

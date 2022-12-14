@@ -21,7 +21,6 @@ body {
 	background-color: #c4eef2;
 	margin: 0;
 	width: 100%;
-	display: flex;
 	justify-content: space-evenly;
 	position: sticky;
 	top: 0;
@@ -59,7 +58,7 @@ nav > ul {
 }
 
 nav > ul > li {
-	align-items: center;	
+	align-items: center;
 }
 
 nav > ul > li > a {
@@ -74,7 +73,7 @@ nav > ul > li > a:link {
 }
 
 nav > ul > li > a:hover {
-	color:#f27289;
+	color: #f27289;
 	text-decoration: underline #f27289;
 }
 
@@ -194,7 +193,6 @@ iframe {
 	font-size: 50px;
 }
 .typingtitle {
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 48px;
@@ -204,36 +202,15 @@ iframe {
 	white-space: nowrap;
 	margin: 30;
 	letter-spacing: 0.15em;
-	animation: typing 1.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 .typingtitle h1 {
 	overflow: hidden;
 	white-space: nowrap;
 	margin: 30;
 	letter-spacing: 0.15em;
-	animation: typing 1.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
-/*typing effect*/
-@keyframes typing {
-	from {
-		width: 0%;
-	}
-	to {
-		width: 70%;
-	}
-}
-@keyframes blink-caret {
-	from,
-	to {
-		border-color: transparent;
-	}
-	50% {
-		border-color: #c4eef2;
-	}
-}
 .column {
-	display: flex;
 	justify-content: space-around;
 	padding: 20px;
 	width: 700px;
@@ -262,13 +239,7 @@ iframe {
 
 .nieuw h3 {
 	text-transform: uppercase;
-	background-image: linear-gradient(
-		-225deg,
-		#c4eef2 0%,
-		#6fbfbf 29%,
-		#f27289 67%,
-		#f285ad 100%
-	);
+	background-image: linear-gradient(-225deg, #c4eef2 0%, #6fbfbf 29%, #f27289 67%, #f285ad 100%);
 	background-size: auto auto;
 	background-clip: border-box;
 	background-size: 200% auto;
@@ -281,11 +252,6 @@ iframe {
 	font-size: 120px;
 	margin-block-start: 20px;
 	margin-block-end: 20px;
-}
-@keyframes textclip {
-	to {
-		background-position: 200% center;
-	}
 }
 .container {
 	position: relative;
@@ -309,7 +275,6 @@ iframe {
 	padding: 12px 30px;
 	border: none;
 	border-radius: 25px;
-	display: flex;
 	justify-content: center;
 	transition: all 0.5s ease;
 	transform: scale(0.7);
@@ -325,7 +290,6 @@ iframe {
 	text-align: center;
 }
 .cadeaubon {
-	display: flex;
 	justify-content: space-around;
 	padding: 20px;
 	width: 700px;
@@ -337,7 +301,6 @@ iframe {
 
 /* Flavours */
 .smaken {
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 48px;
@@ -347,30 +310,10 @@ iframe {
 	white-space: nowrap;
 	margin: 30;
 	letter-spacing: 0.15em;
-	animation: typing 1.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
-/*typing effect*/
-@keyframes typing {
-	from {
-		width: 0%;
-	}
-	to {
-		width: 70%;
-	}
-}
-@keyframes blink-caret {
-	from,
-	to {
-		border-color: transparent;
-	}
-	50% {
-		border-color: #c4eef2;
-	}
-}
 .seizoen {
 	position: relative;
-	display: flex;
 	justify-content: center;
 	max-width: 600px;
 	margin: 0 auto 40px;
@@ -394,12 +337,10 @@ iframe {
 }
 .seizoen p {
 	font-size: 20px;
-	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .documenten {
-	display: flex;
 	justify-content: flex-end;
 	margin-top: -200px;
 }
@@ -427,7 +368,6 @@ iframe {
 }
 
 .flavours {
-	display: flex;
 	justify-content: center;
 }
 .flavour {
@@ -446,11 +386,9 @@ iframe {
 }
 
 .restMenu {
-	display: flex;
 	justify-content: center;
 }
 .coupes {
-	display: flex;
 	flex-direction: column;
 	margin: 25px;
 	padding: 20px;
@@ -471,7 +409,6 @@ iframe {
 	text-align: center;
 }
 .toppings {
-	display: flex;
 	justify-content: center;
 	padding-bottom: 40px;
 }
@@ -482,7 +419,6 @@ iframe {
 	border-color: #2d7989;
 }
 .topping {
-	display: flex;
 	flex-direction: column;
 	margin: 25px;
 	padding: 20px;
@@ -596,7 +532,6 @@ label {
 }
 
 .radio {
-	display: flex;
 	justify-content: flex-start;
 	font-size: 16px;
 	margin-bottom: 20px;
@@ -648,7 +583,6 @@ label {
 /*contact*/
 
 .slick_slider {
-	display: flex;
 	position: relative;
 	margin-top: 100px;
 	justify-content: center;
@@ -737,6 +671,20 @@ label {
 }
 .submitContact input:hover {
 	background-color: #db3150;
+}
+
+.mc_container {
+	justify-content: center;
+}
+
+.mc_embed_signup {
+	background-color: #c4eef2;
+	clear: left;
+	font: 14px Helvetica, Arial, sans-serif;
+	width: 400px;
+	border-radius: 25px;
+	padding: 20px 50px 0 50px;
+	margin-bottom: 100px;
 }
 
 /*Form Validation*/
